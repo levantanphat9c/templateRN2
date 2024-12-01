@@ -1,0 +1,7 @@
+# Chỉ chạy commitlint khi có staged files
+if git diff --cached --quiet; then
+  echo "No staged files."
+  exit 0
+fi
+
+npx --no -- commitlint --edit "$1"

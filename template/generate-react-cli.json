@@ -1,0 +1,54 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": false,
+  "cssPreprocessor": "css",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "customTemplates": {
+        "component": "src/templates/component/index.tsx",
+        "style": "src/templates/component/styles.ts"
+      },
+      "path": "src/Components",
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "withStyle": true
+    },
+    "redux": {
+      "customTemplates": {
+        "index": "src/templates/reduxToolkit/index.ts",
+        "helper": "src/templates/reduxToolkit/TemplateName.helper.ts",
+        "component": "src/templates/reduxToolkit/TemplateName.redux.ts",
+        "type": "src/templates/reduxToolkit/TemplateName.type.ts",
+        "saga": "src/templates/reduxToolkit/TemplateName.saga.ts"
+      },
+      "path": "src/ReduxSaga",
+      "withIndex": true,
+      "withHelper": true,
+      "withType": true,
+      "withSaga": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    },
+    "reduxStockInfo": {
+      "customTemplates": {
+        "index": "src/templates/reduxToolKitStockInfo/index.ts",
+        "helper": "src/templates/reduxToolKitStockInfo/TemplateName.helper.ts",
+        "component": "src/templates/reduxToolKitStockInfo/TemplateName.redux.ts",
+        "type": "src/templates/reduxToolKitStockInfo/TemplateName.type.ts",
+        "saga": "src/templates/reduxToolKitStockInfo/TemplateName.saga.ts"
+      },
+      "path": "src/ReduxSaga",
+      "withIndex": true,
+      "withHelper": true,
+      "withType": true,
+      "withSaga": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    }
+  },
+  "usesStyledComponents": false
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>compileBitcode</key>
+    <false />
+    <key>method</key>
+    <string>ad-hoc</string>
+		<key>signingStyle</key>
+		<string>automatic</string>
+		<key>SigningIdentity</key>
+		<string>Apple Development: MTS TechX (FBT294KQ2W)</string>
+		<key>Team</key>
+		<string>MLF48UUXX9</string>
+		<key>signingCertificate</key>
+    <string>iPhone Distribution</string>
+    <key>stripSwiftSymbols</key>
+    <true/>
+    <key>thinning</key>
+    <string>&lt;none&gt;</string>
+	</dict>
+</plist>
